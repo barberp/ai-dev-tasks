@@ -23,8 +23,8 @@ def copy_workspace_files(destination_dir):
     # Files to copy with their corresponding directory names
     files_to_copy = [
         ("create-prd.md", "create-prd"),
-        ("generate-tasks.md", "generate-tasks"),
-        ("process-task-list.md", "process-task-list")
+        ("generate-tasks.md", "tasks"),
+        ("process-task-list.md", "tasks")
     ]
     
     # Create destination directory if it doesn't exist
