@@ -74,8 +74,8 @@ def main():
     print(f"\nAbout to copy files to: {destination}")
     print("This will create the following structure:")
     print("  - create-prd/create-prd.md")
-    print("  - generate-tasks/generate-tasks.md")
-    print("  - process-task-list/process-task-list.md")
+    print("  - tasks/generate-tasks.md")
+    print("  - tasks/process-task-list.md")
     
     while True:
         confirm = input("\nDo you want to proceed? (y/n): ").strip().lower()
